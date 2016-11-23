@@ -24,7 +24,7 @@ class Application(Frame):
         while True:
             try:
                 time.sleep(0.001)
-                img = PhotoImage(file="title.gif", format="gif - {}".format(self.num))
+                img = PhotoImage(file="logo.gif", format="gif - {}".format(self.num))
 
                 self.label.config(image=img)
                 self.label.image = img
